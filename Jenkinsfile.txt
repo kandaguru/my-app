@@ -4,7 +4,7 @@ pipeline {
            
      stage('clone repo') { 
             steps {
-                sh "mvn clean"
+                mvn clean
             }
         }
         stage('Test') { 

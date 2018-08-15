@@ -1,5 +1,5 @@
 pipeline {
-    agent any 
+    node('ecs-java') 
     stages {
            
      stage('clone repo') { 
